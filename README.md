@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+# Movie List
+
+This is a Web Page created throught the ReactJs for training the concept of this amazing JS Library.
+
+The Movie List was built using an JSON API to load images, titles, id and description. You can find it at https://sujeitoprogramador.com/r-api/?api=filmes
+
+You can save your favorite movie and it's displayed on favorite page. For doing such thing it was used the LocalStoraged API.
+
+## What I've learned About React.JS
+- Life Cycle using Hookies: useState, useEffect.
+- Dynamic Routing using the react-router-dom Library: useParams, useHistory, Link, BrowserRouter, Switch, Route.
+- Promises using axios library.
+- Pretty alerts using react-toastify library.
+- Dynamic CSS using styled-components library.
+
+## Instructions
+
+### If you clone this project you have to:
+
+- __yarn install__ (it's going to add a node_modules dependecy to the project);
+- __yarn start__ (it load the project in the localhost:3000)
+
+### If some library is missing you have to add it to project.
+- yarn add react-router-dom
+- yarn add axios
+- yarn add react-toastify
+- yarn add styled-components
+
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
